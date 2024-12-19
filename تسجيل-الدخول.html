@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>تسجيل الدخول</title>
+</head>
+<body>
+ <h1>تسجيل الدخول</h1>
+ <form method="post">
+  {% csrf_token %}
+  {{ شكل.as_p }}
+  <button type="submit">تسجيل الدخول</button>
+ </form>
+</body>
+</html>
