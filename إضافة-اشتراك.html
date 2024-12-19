@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>إضافة اشتراك</title>
+</head>
+<body>
+ <h1>إضافة اشتراك</h1>
+ <form method="post">
+  {% csrf_token %}
+  {{ شكل.as_p }}
+  <button type="submit">إضافة اشتراك</button>
+ </form>
+</body>
+</html>
