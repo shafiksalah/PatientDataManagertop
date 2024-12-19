@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>إضافة مريض</title>
+</head>
+<body>
+ <h1>إضافة مريض</h1>
+ <form method="post">
+  {% csrf_token %}
+  {{ شكل.as_p }}
+  <button type="submit">إضافة مريض</button>
+ </form>
+</body>
+</html>
